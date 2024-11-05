@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
           listItem.textContent = `${user.user.lastname}, ${user.user.firstname}`;
           listItem.setAttribute('id', user.id);
           userList.appendChild(listItem);
-
+ 
           listItem.addEventListener('click', () => {
               populateForm(user);
               renderPortfolio(user, stocks);
