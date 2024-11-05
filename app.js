@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
       userData.splice(userIndex, 1);
       generateUserList(userData, stocksData);
   });
-
+ 
   saveButton.addEventListener('click', (event) => {
       event.preventDefault();
       const userId = document.querySelector('#userID').value;
